@@ -1,12 +1,12 @@
-# bamazon-database
+ bamazon-database
 
 This is an application that uses mySQL to create tables and store data that is then accessed through node to view or edit. There are three levels of access (Customer, Manager, and Supervisor).
 
 A npm package and seed file are provided for you to use. After downloading the repository, run the mySQL schema and seed files. Then ```npm install``` on your command line. You should be able to access and run each JS file after that.
 ___
 
-## Customer
-![Bamazon Customer]
+
+Bamazon Customer
 
 ```node bamazonCustomer.js```
 
@@ -16,8 +16,8 @@ If the stock of the item selected is too low, it will notify the user and close 
 
 ___
 
-## Manager
-![Bamazon Manager]
+
+Bamazon Manager
 
 ```node bamazonManager.js```
 
@@ -26,8 +26,8 @@ This application allows the user (manager) to view all products for sale, view a
 The first two options provide tables for the user. When adding new stock to your current inventory, the user is prompted to select an item, and then provide the quantity that will be added. The last option, adding an entirely new item, will ask the user to provide an item name, department name, price and quanity. These changes will be reflected on the table from the view inventory option.
 
 ___
-## Supervisor
-![Bamazon Supervisor]
+
+Bamazon Supervisor
 
 ```node bamazonSupervisor.js```
 
